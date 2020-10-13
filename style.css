@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  background: #ffdb00;
+  min-height: 100%;
+}
+
+.wrapper {
+  min-height: calc(100vh - 153.05px);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.leftcont {
+  float: left;
+  position: fixed;
+  width: 50%;
+  margin: 25px;
+}
+
+.leftcont a {
+  display: block;
+  height: 83px;
+  white-space: nowrap;
+}
+
+.home {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 73px;
+  cursor: help;
+}
+
+.home:hover {
+  text-decoration: underline;
+  font-family: AkzidenzGrotesk-LightOsF;
+  color: #095e68;
+}
+
+.shop {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 73px;
+} 
+
+.shop:hover {
+  font-family: AkzidenzGrotesk-MediumExtended;
+  text-decoration: underline;
+  color: #095e68;
+  font-size: 66px;
+}
+
+.socials {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 73px;
+  cursor: cell;
+}
+
+.socials:hover {
+  font-family: BureauGrot-UltraBlack;
+  text-decoration: underline;
+  color: #095e68;
+  font-size: 66px;
+} 
+
+.hi {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 73px;
+} 
+
+.hi:hover {
+  font-family: Sunday Morning;
+  text-decoration: underline;
+  color: #095e68;
+  font-size: 96px;
+} 
+
+.rightcont {
+  margin: 25px;
+  width: 50%;
+  font-family: NanumMyeongjo-Regular;
+  font-size: 70px;
+  float: right;
+}
+
+.aboutimage {
+  width: 70%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.iran {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 73px;
+}
+
+.iran:hover {
+  cursor: url('images/iran.png');
+}
+
+.subhead {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 33px;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 25px 25px 0;
+  position: fixed;
+}
+
+.logo {
+  width: 25%;
+}
+
+@media (max-width: 1059px) { 
+  .home {
+    font-size: 57px;
+  }
+  .shop:hover {
+    font-size: 50px;
+  }
+  .socials:hover {
+    font-size: 50px;
+  }
+  .hi:hover {
+    font-size: 80px;
+  }
+  .shop {
+    font-size: 57px;
+  }
+  .socials {
+    font-size: 57px;
+  }
+  .hi {
+    font-size: 57px;
+  }
+  .leftcont a {
+    height: 72px;
+  }
+  .iran {
+    font-size: 57px;
+  }
+  .subhead {
+    font-size: 22px;
+  }
+  .rightcont {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 846px) { 
+  .leftcont {
+    width: 100%;
+    position: relative;
+  }
+  .rightcont {
+    float: none;
+    margin: 30px;
+    width: 100%;
+  }  
+  .aboutimage {
+    margin-top: 50px;
+  }
+  footer {
+    position: relative;
+  }
+  .logo {
+    width: 20%;
+  }
+  .subhead {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 505px) { 
+  .rightcont {
+    font-size: 38px;
+  }
+  .iran {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 411px) { 
+   .home {
+    font-size: 41px;
+  }
+  .shop:hover {
+    font-size: 34px;
+  }
+  .socials:hover {
+    font-size: 34px;
+  }
+  .hi:hover {
+    font-size: 48px;
+  }
+  .shop {
+    font-size: 41px;
+  }
+  .socials {
+    font-size: 41px;
+  }
+  .hi {
+    font-size: 41px;
+  }
+  .leftcont a {
+    height: 51px;
+  }
+}
+@font-face { font-family: AkzidenzGrotesk-LightOsF; src: url('fonts/AkzidenzGrotesk-LightOsF.otf'); } 
+@font-face { font-family: NanumMyeongjo-Regular; src: url('fonts/NanumMyeongjo-Regular.ttf'); } 
+@font-face { font-family: Sunday Morning; src: url('fonts/Sunday Morning.otf'); } 
+@font-face { font-family: AkzidenzGrotesk-MediumExtended; src: url('fonts/AkzidenzGrotesk-MediumExtended.otf'); } 
+@font-face { font-family: BureauGrot-UltraBlack; src: url('fonts/BureauGrot-UltraBlack.ttf'); } 
+
