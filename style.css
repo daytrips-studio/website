@@ -101,7 +101,7 @@ a {
 .aboutimage {
   width: 70%;
   display: block;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .iran {
@@ -183,23 +183,26 @@ footer {
     width: 100%;
   }  
   .aboutimage {
-    padding-top: 50px;
+    padding-top: 45px;
   }
   .logo {
-    width: 20%;
+    width: 15%;
+    display: block;
   }
   footer {
     position: static;
-    height: 83px;
   }
 }
 
-@media (max-width: 505px) { 
+@media (max-width: 635px) { 
   .rightcont {
     font-size: 36px;
   }
   .iran {
     font-size: 39px;
+  }
+  .logo {
+    width: 22%;
   }
 }
 
@@ -229,6 +232,7 @@ footer {
     height: 51px;
   }
   .logo {
+    width: 30%;
   }
 }
 @font-face { font-family: AkzidenzGrotesk-LightOsF; src: url('fonts/AkzidenzGrotesk-LightOsF.otf'); } 
