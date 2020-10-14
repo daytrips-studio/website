@@ -16,8 +16,9 @@ a {
   float: left;
   position: fixed;
   width: 50%;
-  margin: 25px;
+  padding: 25px;
   z-index: 2;
+  box-sizing: border-box; 
 }
 
 .leftcont a {
@@ -76,12 +77,12 @@ a {
 } 
 
 .rightcont {
-  margin: 25px;
+  padding: 25px;
   width: 50%;
   font-family: NanumMyeongjo-Regular;
   font-size: 68px;
   float: right;
-  height: 83px;
+  box-sizing: border-box; 
 }
 
 .aboutimage {
@@ -99,8 +100,9 @@ a {
 }
 
 .iran:hover {
-  content: url('images/iran.png');
-  width: 20%;
+  background: url(images/iran.png) center/contain no-repeat;
+  width: 108px;
+  color: rgba(0,0,0,0);
 }
 
 .subhead {
@@ -162,17 +164,16 @@ footer {
   }
   .rightcont {
     float: none;
-    margin: 30px;
     width: 100%;
   }  
   .aboutimage {
     margin-top: 50px;
   }
-  .subhead {
-    margin: 10px;
-  }
   .logo {
     width: 22%;
+  }
+  footer {
+    position: static;
   }
 }
 
