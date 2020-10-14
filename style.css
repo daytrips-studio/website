@@ -17,6 +17,7 @@ a {
   position: fixed;
   width: 50%;
   margin: 25px;
+  z-index: 2;
 }
 
 .leftcont a {
@@ -80,6 +81,7 @@ a {
   font-family: NanumMyeongjo-Regular;
   font-size: 68px;
   float: right;
+  height: 83px;
 }
 
 .aboutimage {
@@ -93,6 +95,7 @@ a {
   font-size: 71px;
   cursor: crosshair;
   text-decoration: underline;
+  display: inline;
 }
 
 .iran:hover {
@@ -112,7 +115,8 @@ footer {
 }
 
 .logo {
-  width: 25%;
+  width: 22%;
+  z-index: 2;
 }
 
 @media (max-width: 1059px) { 
@@ -164,14 +168,11 @@ footer {
   .aboutimage {
     margin-top: 50px;
   }
-  footer {
-    position: relative;
-  }
-  .logo {
-    width: 20%;
-  }
   .subhead {
     margin: 10px;
+  }
+  .logo {
+    width: 22%;
   }
 }
 
@@ -181,6 +182,9 @@ footer {
   }
   .iran {
     font-size: 39px;
+  }
+  .logo {
+    width: 29%;
   }
 }
 
@@ -208,6 +212,9 @@ footer {
   }
   .leftcont a {
     height: 51px;
+  }
+  .logo {
+    width: 34%;
   }
 }
 @font-face { font-family: AkzidenzGrotesk-LightOsF; src: url('fonts/AkzidenzGrotesk-LightOsF.otf'); } 
