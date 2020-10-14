@@ -92,6 +92,7 @@ a {
   font-family: AkzidenzGrotesk-LightOsF;
   font-size: 71px;
   cursor: crosshair;
+  text-decoration: underline;
 }
 
 .iran:hover {
