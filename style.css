@@ -1,10 +1,23 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   background: #ffdb00;
+  height: 100%;
+  overflow: auto;
 }
 
 .wrapper {
-  min-height: calc(100vh - 153.05px);
+  min-height: calc(100% - 153.05px);
+}
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
 }
 
 a {
