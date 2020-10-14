@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background: #ffdb00;
-  min-height: 100%;
 }
 
 .wrapper {
@@ -79,7 +78,7 @@ a {
   margin: 25px;
   width: 50%;
   font-family: NanumMyeongjo-Regular;
-  font-size: 70px;
+  font-size: 68px;
   float: right;
 }
 
@@ -91,11 +90,13 @@ a {
 
 .iran {
   font-family: AkzidenzGrotesk-LightOsF;
-  font-size: 73px;
+  font-size: 71px;
+  cursor: crosshair;
 }
 
 .iran:hover {
-  cursor: url('images/iran.png');
+  content: url('images/iran.png');
+  width: 20%;
 }
 
 .subhead {
@@ -145,7 +146,7 @@ footer {
     font-size: 22px;
   }
   .rightcont {
-    font-size: 54px;
+    font-size: 52px;
   }
 }
 
@@ -175,10 +176,10 @@ footer {
 
 @media (max-width: 505px) { 
   .rightcont {
-    font-size: 38px;
+    font-size: 36px;
   }
   .iran {
-    font-size: 41px;
+    font-size: 39px;
   }
 }
 
