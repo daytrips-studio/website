@@ -101,7 +101,7 @@ a {
 .aboutimage {
   width: 70%;
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .iran {
@@ -118,10 +118,37 @@ a {
   color: rgba(0,0,0,0);
 }
 
+.covid {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 71px;
+  cursor: crosshair;
+  text-decoration: underline;
+  display: inline;
+}
+
+.covid:hover {
+  background: url(images/n95.jpg) center/contain no-repeat;
+  width: 108px;
+  color: rgba(0,0,0,0);
+}
+
+.2020 {
+  font-family: AkzidenzGrotesk-LightOsF;
+  font-size: 71px;
+  cursor: crosshair;
+  text-decoration: underline;
+  display: inline;
+}
+
+.2020:hover {
+  background: url(images/2020.jpg) center/contain no-repeat;
+  width: 108px;
+  color: rgba(0,0,0,0);
+}
+
 .subhead {
   font-family: AkzidenzGrotesk-LightOsF;
-  font-size: 33px;
-  text-decoration: underline;
+  font-size: 38px;
 }
 
 footer {
@@ -162,8 +189,14 @@ footer {
   .iran {
     font-size: 57px;
   }
+  .covid {
+    font-size: 57px;
+  }
+  .2020 {
+    font-size: 57px;
+  }
   .subhead {
-    font-size: 22px;
+    font-size: 27px;
   }
   .rightcont {
     font-size: 52px;
@@ -199,6 +232,12 @@ footer {
     font-size: 36px;
   }
   .iran {
+    font-size: 39px;
+  }
+  .covid {
+    font-size: 39px;
+  }
+  .2020 {
     font-size: 39px;
   }
   .logo {
